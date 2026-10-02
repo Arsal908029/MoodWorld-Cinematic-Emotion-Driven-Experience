@@ -1,0 +1,19 @@
+{
+  "name": "moodworld-backend",
+  "version": "1.0.0",
+  "description": "MoodWorld Backend Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js",
+    "query": "node query.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^8.3.0"
+  }
+}
